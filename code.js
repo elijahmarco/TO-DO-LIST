@@ -16,4 +16,16 @@ function createli(){
     
 
 }
+
+function crossout(){
+    li.classlist.toggle("done")
+
+}
+li.addEventlistener("click",crossout)
  //creating a function for creating a new element.
+ let btn = document.createElement('button')
+ btn.appendChild(createtextnode('x'))
+ li.appendChild(btn)
+ btn.addEventListener("click",...)
+
+ 
