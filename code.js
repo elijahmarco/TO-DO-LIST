@@ -28,4 +28,12 @@ li.addEventlistener("click",crossout)
  li.appendChild(btn)
  btn.addEventListener("click",...)
 
- 
+ function deleteitem(){
+    li.classlist.add('delde')
+ }
+
+ function addListAfterClick(){
+    if(inputLength > 0 ){
+        createListElement()
+    }
+ }
